@@ -1,0 +1,33 @@
+
+.content{
+    padding-top: 5px;
+}
+
+.row{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+    /* mat-form-field{
+        width: 100%;
+    } */
+}
+mat-form-field.full-width {
+    width: 50%; /* Adjust width to fit side by side */
+    box-sizing: border-box;
+    
+  }
+  
+
+.main{
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.action{
+    display: flex;
+    justify-content: flex-end;
+}
+mat-dialog-actions button {
+    margin-left: 8px;
+    
+  }

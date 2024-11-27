@@ -1,0 +1,120 @@
+<mat-toolbar>
+    <span>Students List</span>
+    <span class="example-spacer"></span>
+    <button mat-raised-button color="primary" (click)="openAddEditStudentForm()">
+      Add Student
+    </button>
+  </mat-toolbar>
+  
+  <div class="main-body">
+
+    <div class="filter-container">
+    <mat-form-field class="filter">
+      <mat-label>Filter</mat-label>
+      <input matInput (keyup)="applyFilter($event)" placeholder="Ex. Mia" #input>
+    </mat-form-field>
+  </div>
+  
+    <div class="table-container">
+      <table mat-table [dataSource]="dataSource" matSort>
+  
+        <!-- ID Column -->
+        <ng-container matColumnDef="id">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header> ID </th>
+          <td mat-cell *matCellDef="let row"> {{row.id}} </td>
+        </ng-container>
+  
+        <!-- Progress Column -->
+        <ng-container matColumnDef="s_firstName">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header> First Name </th>
+          <td mat-cell *matCellDef="let row"> {{row.s_firstName}}</td>
+        </ng-container>
+  
+        <ng-container matColumnDef="s_lastName">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header> Last Name </th>
+          <td mat-cell *matCellDef="let row"> {{row.s_lastName}}</td>
+        </ng-container>
+  
+        <!-- <ng-container matColumnDef="address">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header> Address </th>
+          <td mat-cell *matCellDef="let row"> {{row.address}}</td>
+        </ng-container> -->
+  
+        <ng-container matColumnDef="email">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header> Email </th>
+          <td mat-cell *matCellDef="let row"> {{row.email}}</td>
+        </ng-container>
+
+        <ng-container matColumnDef="mobileNumber">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header> Phone </th>
+            <td mat-cell *matCellDef="let row"> {{row.mobileNumber}}</td>
+          </ng-container>
+<!-- 
+          <ng-container matColumnDef="education">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header> Education </th>
+            <td mat-cell *matCellDef="let row"> {{row.education}}</td>
+          </ng-container>
+
+          <ng-container matColumnDef="collage">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header> Collage </th>
+            <td mat-cell *matCellDef="let row"> {{row.collage}}</td>
+          </ng-container> -->
+
+          <ng-container matColumnDef="course">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header> Course </th>
+            <td mat-cell *matCellDef="let row"> {{row.course}}</td>
+          </ng-container>
+
+          <ng-container matColumnDef="joinDate">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header> JoinDate </th>
+            <td mat-cell *matCellDef="let row"> {{row.joinDate| date:'mediumDate'}}</td>
+          </ng-container>
+
+            <!--<ng-container matColumnDef="endDate">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header> End Date </th>
+            <td mat-cell *matCellDef="let row"> {{row.endDate}}</td>
+          </ng-container>
+
+         <ng-container matColumnDef="paidFees">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header> Paid Fees </th>
+            <td mat-cell *matCellDef="let row"> {{row.paidFees}}</td>
+          </ng-container>
+
+          <ng-container matColumnDef="remainingFees">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header> Remaining Fees </th>
+            <td mat-cell *matCellDef="let row"> {{row.remainingFees}}</td>
+          </ng-container> -->
+       
+        <ng-container matColumnDef="action">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header class="heading"> Action </th>
+          <td mat-cell *matCellDef="let row" class="action-cell">
+            <div class="action-buttons">
+            <button mat-icon-button color="primary" (click)="openEditForm(row)">
+              <mat-icon>edit</mat-icon>
+            </button>
+            <button mat-icon-button color="warn" (click)="deleteStudent(row.id)">
+              <mat-icon>delete</mat-icon>
+            </button>
+            
+            <button mat-icon-button color="accent" (click)="viewStudentDetails(row)">
+              <mat-icon>visibility</mat-icon>
+            </button>
+            <!-- <button mat-raised-button color="accent" type="button" (click)="viewStudentDetails(row)">View</button> -->
+
+            <!-- <mat-slide-toggle></mat-slide-toggle> -->
+          </div>
+          </td>
+        </ng-container>
+  
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  
+        <!-- Row shown when there is no matching data. -->
+        <tr class="mat-row" *matNoDataRow>
+          <td class="mat-cell" colspan="4">No data matching the filter "{{input.value}}"</td>
+        </tr>
+      </table>
+  
+      <mat-paginator [pageSizeOptions]="[5, 10, 25, 100]" aria-label="Select page of users"></mat-paginator>
+    </div>
+  </div>

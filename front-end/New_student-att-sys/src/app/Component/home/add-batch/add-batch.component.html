@@ -1,0 +1,80 @@
+<div class="main">
+  <div mat-dialog-title>
+    <h1>Batch Form</h1>
+  </div>
+
+  <form [formGroup]="batchForm" (ngSubmit)="onFormSubmit()">
+
+    <div mat-dialog-content class="content">
+      <div class="row">
+        <mat-form-field appearance="outline" class="full-width">
+          <mat-label>Name</mat-label>
+          <input matInput type="text" placeholder="Ex. John" formControlName="name">
+          <mat-error *ngIf="batchForm.get('name')?.hasError('required')">
+            only alphabets are allowed..
+          </mat-error>
+        </mat-form-field>
+      </div>
+      <!-- <mat-form-field appearance="outline">
+                <mat-label>Trainer</mat-label>
+                <input matInput type="text" placeholder="Ex. Pune" formControlName="trainer">
+                <mat-error *ngIf="batchForm.get('trainer')?.hasError('required')">
+                required.
+                </mat-error>
+              </mat-form-field> -->
+      <div class="row">
+        <mat-form-field appearance="outline">
+          <mat-label>Trainer</mat-label>
+          <mat-select formControlName="trainer">
+            <mat-option *ngFor="let trainer of Trainers" [value]="trainer.firstName">
+              {{trainer.firstName}}
+            </mat-option>
+          </mat-select>
+          <mat-error *ngIf="batchForm.get('trainer')?.hasError('required')">
+            Required field...
+          </mat-error>
+        </mat-form-field>
+      </div>
+      <div class="row">
+        <mat-form-field appearance="outline">
+          <mat-label>Start Date</mat-label>
+          <input matInput [matDatepicker]="startDate" formControlName="startDate">
+          <mat-error *ngIf="batchForm.get('startDate')?.hasError('required')">
+            Required field...
+          </mat-error>
+          <mat-hint>MM/DD/YYYY</mat-hint>
+          <mat-datepicker-toggle matIconSuffix [for]="startDate"></mat-datepicker-toggle>
+          <mat-datepicker #startDate></mat-datepicker>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+          <mat-label>End Date</mat-label>
+          <input matInput [matDatepicker]="endDate" formControlName="endDate">
+          <mat-error *ngIf="batchForm.get('endDate')?.hasError('required')">
+            Required field...
+          </mat-error>
+          <mat-hint>MM/DD/YYYY</mat-hint>
+          <mat-datepicker-toggle matIconSuffix [for]="endDate"></mat-datepicker-toggle>
+          <mat-datepicker #endDate></mat-datepicker>
+        </mat-form-field>
+      </div>
+      <div class="row">
+        <mat-form-field appearance="outline">
+          <mat-label>Course</mat-label>
+          <mat-select formControlName="course">
+            <mat-option *ngFor="let course of courses" [value]="course.name">
+              {{course.name}}
+            </mat-option>
+          </mat-select>
+          <mat-error *ngIf="batchForm.get('course')?.hasError('required')">
+            Required field...
+          </mat-error>
+        </mat-form-field>
+      </div>
+    </div>
+    <div mat-dialog-actions class="action">
+      <button mat-raised-button type="button" [mat-dialog-close]="false">Cancel</button>&nbsp;&nbsp;
+      <button mat-raised-button color="primary" type="submit">{{data ? 'Update' : 'Save'}}</button>
+    </div>
+  </form>
+</div>

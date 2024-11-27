@@ -1,0 +1,16 @@
+.pie{
+   
+    display: flex;
+    width: 300px; /* Adjust the width as needed */
+    height: 300px; /* Adjust the height as needed */
+    margin: 0 auto; /* Center the chart horizontally */
+  
+  
+  /* Position the chart at the bottom of the page */
+  
+    position: absolute;
+    bottom: 20px; /* Adjust the bottom margin as needed */
+    left: 50%;
+    transform: translateX(-50%);
+
+}

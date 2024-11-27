@@ -1,0 +1,32 @@
+:host * {
+    transition: all 50ms ease-in-out;
+}
+
+.sidenav-header{
+    padding-top: 10px;
+    text-align: center;
+
+    img{
+        border-radius: 100%;
+        object-fit: cover;
+        margin-bottom: 10px;
+    }
+
+    .header-text{
+        h2{
+            margin: 0;
+            font-size: 1rem;
+            line-height: 1.5rem;
+        }
+    }
+}
+
+.menu-item{
+    border-left: 5px solid;
+    border-left-color: rgba(0, 0, 0, 0);
+}
+
+.selected-menu-item{
+    background: rgba(0, 0, 0, 0.05);
+    border-left-color: blue;
+}

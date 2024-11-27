@@ -1,0 +1,99 @@
+/* Responsive CSS for the Highcharts chart */
+
+.col-sm-6{
+
+  width: 50px;
+  padding: 10px; 
+  margin-bottom: 20px;
+
+}
+
+
+
+/* dashboard.component.css */
+
+/* Container for the cards */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Space between cards */
+  justify-content: center; /* Center cards horizontally */
+  padding: 20px;
+}
+
+
+/* Basic card styles */
+.card {
+  background: linear-gradient(135deg, #ff7e5f, #feb47b); /* Gradient background */
+  color: #181616; /* Text color */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  padding: 20px;
+  width: 250px; /* Fixed width */
+  height: 150px; /* Fixed height */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  justify-content: center; /* Center content vertically */
+  text-align: center; /* Center text horizontally */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  transition: background 0.3s ease-in, transform 0.3s ease-in; /* Smooth transition effect */
+}
+
+.card:hover {
+  background: linear-gradient(135deg, hsla(300, 26%, 96%, 0.925), #f2f1f3e7); /* Inverted gradient on hover */
+  transform: scale(1.05); /* Slightly enlarge the card on hover */
+  color: chocolate;
+
+
+  /* box-shadow: 0 5px 35px 0px rgba(0,0,0,.1); */
+}
+
+
+/* Specific styles for each card type (optional) */
+.user-card { background: linear-gradient(135deg, #7440aa, #2966d0); }
+.course-card { background: linear-gradient(135deg, #ff6f61, #de3d6f); }
+.batch-card { background: linear-gradient(135deg, #f79c42, #f15f5f); }
+.student-card { background: linear-gradient(135deg, #43cea2, #1b5a99); }
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .card-container {
+    flex-direction: column; /* Stack cards vertically on small screens */
+    align-items: center; /* Center cards horizontally */
+  }
+
+  .card {
+    width: 100%; /* Full width on small screens */
+    max-width: 400px; /* Maximum width of cards */
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    font-size: 0.9rem; /* Adjust font size for very small screens */
+    padding: 15px; /* Reduce padding */
+  }
+}
+
+#line-chart {
+  width: 100px; /* Full width of the container */
+  max-width: 100px; /* Ensure it doesn't exceed container width */
+  height: 100px; /* Auto height to maintain aspect ratio */
+  min-height: 100px; /* Minimum height to ensure usability on smaller screens */
+  box-sizing: border-box; /* Include padding and border in total width and height */
+}
+
+/* Optional: You can also set a max-height if needed to prevent the chart from growing too large */
+@media (max-width: 768px) {
+  #line-chart {
+    min-height: 250px; /* Adjust height for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  #line-chart {
+    min-height: 200px; /* Further adjust height for very small screens */
+  }
+}
+

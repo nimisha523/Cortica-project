@@ -1,0 +1,49 @@
+<section class="vh-100">
+  <div class="container-fluid h-custom main-div">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-md-9 col-lg-6 col-xl-5">
+        <img
+          src="https://img.freepik.com/premium-vector/study-group-illustration-with-students-study-together-after-class-as-concept-this-illustration-can-be-use-website-landing-page-web-app-banner_9829-25.jpg?w=2000"
+          class="img-fluid" alt="Responsive image">
+      </div>
+      <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1 mt-5 form-div">
+        <form (ngSubmit)="OnLogin()">
+          <div class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
+          </div>
+
+
+            <!-- Email input -->
+            <!-- <i class="bi bi-envelope-fill input-icon col-1"></i> -->
+            <div class="form-outline mb-3 position-relative ">
+              <input type="email" id="form3Example3" placeholder="Enter Your Email" class="form-control form-control-lg input-with-icon"
+                [(ngModel)]="email" name="email" required />
+            </div>
+        
+          <!-- Password input -->
+          <div class="form-outline mb-3 position-relative">
+            <input type="password" id="form3Example4" placeholder="Enter Your Password" class="form-control form-control-lg input-with-icon"
+              [(ngModel)]="password" name="password" required />
+            <!-- <i class="bi bi-lock-fill input-icon"></i> -->
+          </div>
+
+          <!-- Remember me and Forgot password link -->
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="form-check mb-0">
+              <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3" />
+              <label class="form-check-label" for="form2Example3">
+                Remember me
+              </label>
+            </div>
+            <a class="text-body" routerLink="forget-pass">Forgot password?</a>
+          </div>
+
+          <!-- Login button -->
+          <div class="text-center text-lg-start mt-4 pt-2">
+            <button type="submit" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-lg"
+              style="padding-left: 2.5rem; padding-right: 2.5rem;">Login</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

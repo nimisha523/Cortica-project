@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "id": "13d6",
+      "firstName": "nimisha",
+      "lastName": "wadkar",
+      "address": "pune",
+      "phoneNo": "8965420",
+      "email": "asxdcf",
+      "subject": "DotNet"
+    },
+    {
+      "firstName": "divya",
+      "lastName": "patil",
+      "address": "mumbai",
+      "phoneNo": "89654532",
+      "email": "Zxcvffvgb",
+      "subject": "Testing",
+      "id": "0a87"
+    },
+    {
+      "firstName": "aditi",
+      "lastName": "gulave",
+      "address": "mumbai",
+      "phoneNo": "7889654112",
+      "email": "aditi@gmail.com",
+      "subject": "Testing",
+      "id": "e08a"
+    },
+    {
+      "firstName": "Trupti",
+      "lastName": "azsxdc",
+      "address": "zsxdc",
+      "phoneNo": "1234567890",
+      "email": "shreya@gmail.com",
+      "subject": "Python",
+      "id": "3992"
+    },
+    {
+      "id": "0bcf",
+      "firstName": "shreya",
+      "lastName": "kharche",
+      "address": "malkapur",
+      "phoneNo": "1234564567",
+      "email": "dfghj@ghjk",
+      "subject": "DotNet"
+    },
+    {
+      "id": "8ed8",
+      "firstName": "azs",
+      "lastName": "xdc",
+      "address": "sxdc",
+      "phoneNo": "1234567890",
+      "email": "dfv@sxdc",
+      "subject": "DotNet"
+    }
+  ]
+}

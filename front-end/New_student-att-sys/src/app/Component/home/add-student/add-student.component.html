@@ -1,0 +1,133 @@
+<div class="main">
+    <div mat-dialog-title>
+        <h1>Student Form</h1>
+    </div>
+
+    <form [formGroup]="studentForm" (ngSubmit)="onFormSubmit()">
+
+        <div mat-dialog-content class="content">
+            <div class="row">
+                <mat-form-field appearance="outline" class="full-width">
+                    <mat-label>First name</mat-label>
+                    <input matInput type="text" placeholder="Ex. John" formControlName="s_firstName">
+                    <mat-error *ngIf="studentForm.get('s_firstName')?.hasError('required')">
+                        only alphabets are allowed..
+                    </mat-error>
+                </mat-form-field>
+                <mat-form-field appearance="outline" class="full-width">
+                    <mat-label>Last name</mat-label>
+                    <input matInput placeholder="Ex. Alexander" formControlName="s_lastName">
+                    <mat-error *ngIf="studentForm.get('s_lastName')?.hasError('required')">
+                        only alphabets are allowed..
+                    </mat-error>
+                </mat-form-field>
+            </div>
+
+            <div class="row">
+                <mat-form-field appearance="outline">
+                    <mat-label>Address</mat-label>
+                    <input matInput type="text" placeholder="Ex. Pune" formControlName="address">
+                    <mat-error *ngIf="studentForm.get('address')?.hasError('required')">
+                        Address is required.
+                    </mat-error>
+                </mat-form-field>
+
+                <mat-form-field appearance="outline">
+                    <mat-label>Email</mat-label>
+                    <input matInput type="email" placeholder="Ex. john@gmail.com" formControlName="email">
+                    <mat-error *ngIf="studentForm.get('email')?.hasError('required')">
+                        email is required.
+                    </mat-error>
+                </mat-form-field>
+
+                <mat-form-field appearance="outline">
+                    <mat-label>Phone number</mat-label>
+                    <input matInput type="text" placeholder="Ex. 91********" formControlName="mobileNumber">
+                    <mat-error *ngIf="studentForm.get('mobileNumber')?.hasError('required')">
+                        Mobile Number is reuired.
+                    </mat-error>
+                </mat-form-field>
+            </div>
+
+            <div class="row">
+                <mat-form-field appearance="outline" class="full-width">
+                    <mat-label>Education</mat-label>
+                    <input matInput type="text" placeholder="Ex.BE" formControlName="education">
+                    <mat-error *ngIf="studentForm.get('education')?.hasError('required')">
+                        Education is required.
+                    </mat-error>
+                </mat-form-field>
+
+                <mat-form-field appearance="outline" class="full-width">
+                    <mat-label>collage</mat-label>
+                    <input matInput type="text" placeholder="Ex.BE" formControlName="collage">
+                    <mat-error *ngIf="studentForm.get('collage')?.hasError('required')">
+                        College is required.
+                    </mat-error>
+                </mat-form-field>
+            </div>
+
+            <div class="row">
+                <mat-form-field appearance="outline">
+                  <mat-label>Course</mat-label>
+                  <mat-select formControlName="course">
+                    <mat-option *ngFor="let course of courses" [value]="course.name">
+                      {{course.name}}
+                    </mat-option>
+                  </mat-select>
+                  <mat-error *ngIf="studentForm.get('course')?.hasError('required')">
+                    Required field...
+                  </mat-error>
+                </mat-form-field>
+              </div>
+
+            <div class="row">
+                <mat-form-field appearance="outline" class="full-width">
+                    <mat-label>Join Date</mat-label>
+                    <input matInput [matDatepicker]="joinDate" formControlName="joinDate">
+                    <mat-error *ngIf="studentForm.get('joinDate')?.hasError('required')">
+                        Required field...
+                    </mat-error>
+                    <mat-hint>MM/DD/YYYY</mat-hint>
+                    <mat-datepicker-toggle matIconSuffix [for]="joinDate"></mat-datepicker-toggle>
+                    <mat-datepicker #joinDate></mat-datepicker>
+                </mat-form-field>
+
+                <mat-form-field appearance="outline" class="full-width">
+                    <mat-label>End Date</mat-label>
+                    <input matInput [matDatepicker]="endDate" formControlName="endDate">
+                    <mat-error *ngIf="studentForm.get('endDate')?.hasError('required')">
+                        Required field...
+                    </mat-error>
+                    <mat-hint>MM/DD/YYYY</mat-hint>
+                    <mat-datepicker-toggle matIconSuffix [for]="endDate"></mat-datepicker-toggle>
+                    <mat-datepicker #endDate></mat-datepicker>
+                </mat-form-field>
+            </div>
+
+
+            <div class="row">
+                <mat-form-field appearance="outline" class="full-width">
+                    <mat-label>paidFees</mat-label>
+                    <input matInput type="text" placeholder="Ex. John" formControlName="paidFees">
+                    <mat-error *ngIf="studentForm.get('paidFees')?.hasError('required')">
+                        Required...
+                    </mat-error>
+                </mat-form-field>
+                <mat-form-field appearance="outline" class="full-width">
+                    <mat-label>remainingFees</mat-label>
+                    <input matInput type="text" placeholder="Ex. John" formControlName="remainingFees">
+                    <mat-error *ngIf="studentForm.get('remainingFees')?.hasError('required')">
+                        Required...
+                    </mat-error>
+                </mat-form-field>
+            </div>
+
+
+        </div>
+        <div mat-dialog-actions class="action">
+            <button mat-raised-button type="button" [mat-dialog-close]="false">Cancel</button>&nbsp;&nbsp;
+            <button mat-raised-button color="primary" type="submit">{{data ? 'Update' : 'Save'}}</button>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,50 @@
+/* h1{
+    color: rgb(61, 55, 47);
+    padding-top: 100px;
+    text-align: center;
+}
+
+form{
+    padding: 50px 200px 300px 300px;
+}
+label{
+    padding: 10px;
+} */
+
+.example-spacer {
+    flex: 1 1 auto;
+  
+  }
+  
+  .main-body{
+      max-width: 1200px;
+      padding-top: 20px;
+      margin: 0 auto;
+      mat-form-field{
+          width: 25%;
+      }
+  }
+  
+  .action-cell {
+      display: flex;
+      align-items: center;
+    }
+    
+    .action-buttons {
+      display: flex;
+      gap: 8px; /* Adjust the spacing between elements as needed */
+      align-items: center;
+    }
+  
+    .filter-container {
+      display: flex;
+      justify-content: flex-end;
+     
+    }
+    
+    .filter {
+      width: 100%; /* Adjust the width as needed */
+      max-width: 300px; /* You can set a max-width to control the size */
+      
+    }
+    

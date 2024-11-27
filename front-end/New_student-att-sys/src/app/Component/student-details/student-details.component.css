@@ -1,0 +1,54 @@
+/* h1{
+  text-align: left;
+  margin: 20px;
+}
+
+.student-details-dialog {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+  gap: 1rem;
+  margin-left: 20px;
+}
+
+.student-details-dialog p {
+  flex: 1 1 30%; 
+  margin: 0;
+}
+
+.dialog-actions {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+.dialog-actions button {
+  margin-left: 10px;
+} */
+
+
+.student-details-dialog {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Space between each detail */
+  font-size: 16px; /* Adjust font size as needed */
+  padding: 20px; /* Padding around the content */
+}
+
+.student-details-dialog p {
+  margin: 0; /* Remove default margin */
+  line-height: 1.5; /* Line height for readability */
+}
+
+.dialog-actions {
+  display: flex;
+  justify-content: flex-end; /* Align button to the right */
+  padding: 10px 20px; /* Padding around the actions */
+}
+
+.dialog-actions button {
+  margin-left: 10px; /* Space between buttons, if more are added */
+}

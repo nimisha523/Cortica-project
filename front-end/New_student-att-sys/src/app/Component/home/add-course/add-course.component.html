@@ -1,0 +1,42 @@
+<!-- <p>add-course works!</p> -->
+<div class="main">
+    <div mat-dialog-title>
+        <h1>Course Form</h1>
+    </div>
+    
+    <form [formGroup]="courseForm" (ngSubmit)="onFormSubmit()">
+    
+    <div mat-dialog-content class="content">
+        <div class="row">
+            <mat-form-field appearance="outline" class="full-width">
+                <mat-label>Course Name</mat-label>
+                <input matInput type="text" placeholder="Ex. Java" formControlName="name" name="name" #name (ngModel)="name">
+                <mat-error *ngIf="courseForm.get('name')?.hasError('required')">
+                  only alphabets are allowed..
+                </mat-error>
+              </mat-form-field>
+              <mat-form-field appearance="outline" class="full-width">
+                <mat-label>Description</mat-label>
+                <input matInput placeholder="Ex. Full stack Developer" formControlName="description" name="description" #description (ngModel)="description">
+                <mat-error *ngIf="courseForm.get('description')?.hasError('required')">
+                  Required field...
+                </mat-error>
+              </mat-form-field>
+        </div>
+        <div class="row">
+              <mat-form-field appearance="outline">
+                <mat-label>Fees</mat-label>
+                <input matInput type="number" placeholder="Ex. $" formControlName="fees"  name="fees" #fees (ngModel)="fees" >
+                <mat-error *ngIf="courseForm.get('fees')?.hasError('required')">
+                  Amount is  required.
+                </mat-error>
+              </mat-form-field>
+        </div>
+    </div>
+    <div mat-dialog-actions class="action">
+        <button mat-raised-button type="button" [mat-dialog-close]="false">Cancel</button>&nbsp;&nbsp;
+        <button mat-raised-button color="primary" type="submit">{{data ? 'Update' : 'Save'}}</button>
+    </div>
+    </form>
+    </div>
+    

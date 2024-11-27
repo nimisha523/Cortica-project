@@ -1,0 +1,19 @@
+<h1 mat-dialog-title>Student Details</h1>
+<div mat-dialog-content class="student-details-dialog">
+  <!-- <h2>Student Details</h2> -->
+  <p><strong>First Name:</strong> {{data.s_firstName}}</p>
+  <p><strong>Last Name:</strong> {{data.s_lastName}}</p>
+  <p><strong>Address:</strong> {{data.address}}</p>
+  <p><strong>Email:</strong> {{data.email}}</p>
+  <p><strong>Phone:</strong> {{data.mobileNumber}}</p>
+  <p><strong>Education:</strong> {{data.education}}</p>
+  <p><strong>College:</strong> {{data.collage}}</p>
+  <p><strong>Course:</strong> {{data.course}}</p>
+  <p><strong>Join Date:</strong> {{data.joinDate| date:'mediumDate' }}</p>
+  <p><strong>End Date:</strong> {{data.endDate | date:'mediumDate'}}</p>
+  <p><strong>Paid Fees:</strong> {{data.paidFees}}</p>
+  <p><strong>Remaining Fees:</strong> {{data.remainingFees}}</p>
+</div>
+<div mat-dialog-actions class="dialog-actions">
+  <button mat-button (click)="closeDialog()">Close</button>
+</div>
