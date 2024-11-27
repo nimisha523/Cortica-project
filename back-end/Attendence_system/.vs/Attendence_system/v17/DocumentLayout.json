@@ -1,0 +1,423 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SHREE\\source\\repos\\Attendence_system\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8019D313-DBDC-4ACD-84E6-837733A095AC}|Attendence_system\\Attendence_system.csproj|c:\\users\\shree\\source\\repos\\attendence_system\\attendence_system\\model\\domain\\user_master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8019D313-DBDC-4ACD-84E6-837733A095AC}|Attendence_system\\Attendence_system.csproj|solutionrelative:attendence_system\\model\\domain\\user_master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8019D313-DBDC-4ACD-84E6-837733A095AC}|Attendence_system\\Attendence_system.csproj|c:\\users\\shree\\source\\repos\\attendence_system\\attendence_system\\model\\dto\\usermasterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8019D313-DBDC-4ACD-84E6-837733A095AC}|Attendence_system\\Attendence_system.csproj|solutionrelative:attendence_system\\model\\dto\\usermasterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8019D313-DBDC-4ACD-84E6-837733A095AC}|Attendence_system\\Attendence_system.csproj|c:\\users\\shree\\source\\repos\\attendence_system\\attendence_system\\model\\dto\\addusermasterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8019D313-DBDC-4ACD-84E6-837733A095AC}|Attendence_system\\Attendence_system.csproj|solutionrelative:attendence_system\\model\\dto\\addusermasterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8019D313-DBDC-4ACD-84E6-837733A095AC}|Attendence_system\\Attendence_system.csproj|c:\\users\\shree\\source\\repos\\attendence_system\\attendence_system\\controllers\\usermastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8019D313-DBDC-4ACD-84E6-837733A095AC}|Attendence_system\\Attendence_system.csproj|solutionrelative:attendence_system\\controllers\\usermastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8019D313-DBDC-4ACD-84E6-837733A095AC}|Attendence_system\\Attendence_system.csproj|c:\\users\\shree\\source\\repos\\attendence_system\\attendence_system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8019D313-DBDC-4ACD-84E6-837733A095AC}|Attendence_system\\Attendence_system.csproj|solutionrelative:attendence_system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8019D313-DBDC-4ACD-84E6-837733A095AC}|Attendence_system\\Attendence_system.csproj|c:\\users\\shree\\source\\repos\\attendence_system\\attendence_system\\repository\\sqluserrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8019D313-DBDC-4ACD-84E6-837733A095AC}|Attendence_system\\Attendence_system.csproj|solutionrelative:attendence_system\\repository\\sqluserrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8019D313-DBDC-4ACD-84E6-837733A095AC}|Attendence_system\\Attendence_system.csproj|c:\\users\\shree\\source\\repos\\attendence_system\\attendence_system\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8019D313-DBDC-4ACD-84E6-837733A095AC}|Attendence_system\\Attendence_system.csproj|solutionrelative:attendence_system\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8019D313-DBDC-4ACD-84E6-837733A095AC}|Attendence_system\\Attendence_system.csproj|c:\\users\\shree\\source\\repos\\attendence_system\\attendence_system\\context\\attendencesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8019D313-DBDC-4ACD-84E6-837733A095AC}|Attendence_system\\Attendence_system.csproj|solutionrelative:attendence_system\\context\\attendencesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8019D313-DBDC-4ACD-84E6-837733A095AC}|Attendence_system\\Attendence_system.csproj|c:\\users\\shree\\source\\repos\\attendence_system\\attendence_system\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8019D313-DBDC-4ACD-84E6-837733A095AC}|Attendence_system\\Attendence_system.csproj|solutionrelative:attendence_system\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8019D313-DBDC-4ACD-84E6-837733A095AC}|Attendence_system\\Attendence_system.csproj|c:\\users\\shree\\source\\repos\\attendence_system\\attendence_system\\model\\dto\\coursemasterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8019D313-DBDC-4ACD-84E6-837733A095AC}|Attendence_system\\Attendence_system.csproj|solutionrelative:attendence_system\\model\\dto\\coursemasterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8019D313-DBDC-4ACD-84E6-837733A095AC}|Attendence_system\\Attendence_system.csproj|c:\\users\\shree\\source\\repos\\attendence_system\\attendence_system\\model\\dto\\addcoursemasterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8019D313-DBDC-4ACD-84E6-837733A095AC}|Attendence_system\\Attendence_system.csproj|solutionrelative:attendence_system\\model\\dto\\addcoursemasterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8019D313-DBDC-4ACD-84E6-837733A095AC}|Attendence_system\\Attendence_system.csproj|c:\\users\\shree\\source\\repos\\attendence_system\\attendence_system\\model\\dto\\addbatchmasterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8019D313-DBDC-4ACD-84E6-837733A095AC}|Attendence_system\\Attendence_system.csproj|solutionrelative:attendence_system\\model\\dto\\addbatchmasterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8019D313-DBDC-4ACD-84E6-837733A095AC}|Attendence_system\\Attendence_system.csproj|c:\\users\\shree\\source\\repos\\attendence_system\\attendence_system\\model\\domain\\course_master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8019D313-DBDC-4ACD-84E6-837733A095AC}|Attendence_system\\Attendence_system.csproj|solutionrelative:attendence_system\\model\\domain\\course_master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8019D313-DBDC-4ACD-84E6-837733A095AC}|Attendence_system\\Attendence_system.csproj|c:\\users\\shree\\source\\repos\\attendence_system\\attendence_system\\model\\domain\\batch_master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8019D313-DBDC-4ACD-84E6-837733A095AC}|Attendence_system\\Attendence_system.csproj|solutionrelative:attendence_system\\model\\domain\\batch_master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8019D313-DBDC-4ACD-84E6-837733A095AC}|Attendence_system\\Attendence_system.csproj|c:\\users\\shree\\source\\repos\\attendence_system\\attendence_system\\controllers\\coursemastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8019D313-DBDC-4ACD-84E6-837733A095AC}|Attendence_system\\Attendence_system.csproj|solutionrelative:attendence_system\\controllers\\coursemastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8019D313-DBDC-4ACD-84E6-837733A095AC}|Attendence_system\\Attendence_system.csproj|c:\\users\\shree\\source\\repos\\attendence_system\\attendence_system\\controllers\\batchmastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8019D313-DBDC-4ACD-84E6-837733A095AC}|Attendence_system\\Attendence_system.csproj|solutionrelative:attendence_system\\controllers\\batchmastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SHREE\\source\\repos\\Attendence_system\\Attendence_system\\Migrations\\20240805154901_nn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Attendence_system\\Migrations\\20240805154901_nn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8019D313-DBDC-4ACD-84E6-837733A095AC}|Attendence_system\\Attendence_system.csproj|c:\\users\\shree\\source\\repos\\attendence_system\\attendence_system\\model\\domain\\studentdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8019D313-DBDC-4ACD-84E6-837733A095AC}|Attendence_system\\Attendence_system.csproj|solutionrelative:attendence_system\\model\\domain\\studentdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8019D313-DBDC-4ACD-84E6-837733A095AC}|Attendence_system\\Attendence_system.csproj|c:\\users\\shree\\source\\repos\\attendence_system\\attendence_system\\model\\dto\\studentdatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8019D313-DBDC-4ACD-84E6-837733A095AC}|Attendence_system\\Attendence_system.csproj|solutionrelative:attendence_system\\model\\dto\\studentdatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8019D313-DBDC-4ACD-84E6-837733A095AC}|Attendence_system\\Attendence_system.csproj|c:\\users\\shree\\source\\repos\\attendence_system\\attendence_system\\controllers\\studentdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8019D313-DBDC-4ACD-84E6-837733A095AC}|Attendence_system\\Attendence_system.csproj|solutionrelative:attendence_system\\controllers\\studentdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8019D313-DBDC-4ACD-84E6-837733A095AC}|Attendence_system\\Attendence_system.csproj|c:\\users\\shree\\source\\repos\\attendence_system\\attendence_system\\model\\dto\\addstudentdatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8019D313-DBDC-4ACD-84E6-837733A095AC}|Attendence_system\\Attendence_system.csproj|solutionrelative:attendence_system\\model\\dto\\addstudentdatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SHREE\\source\\repos\\Attendence_system\\Attendence_system\\Migrations\\20240729070124_ss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Attendence_system\\Migrations\\20240729070124_ss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8019D313-DBDC-4ACD-84E6-837733A095AC}|Attendence_system\\Attendence_system.csproj|c:\\users\\shree\\source\\repos\\attendence_system\\attendence_system\\jsondatetimeconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8019D313-DBDC-4ACD-84E6-837733A095AC}|Attendence_system\\Attendence_system.csproj|solutionrelative:attendence_system\\jsondatetimeconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SHREE\\source\\repos\\Attendence_system\\Attendence_system\\Migrations\\20240722145253_nn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Attendence_system\\Migrations\\20240722145253_nn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8019D313-DBDC-4ACD-84E6-837733A095AC}|Attendence_system\\Attendence_system.csproj|c:\\users\\shree\\source\\repos\\attendence_system\\attendence_system\\migrations\\20240805162156_ss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8019D313-DBDC-4ACD-84E6-837733A095AC}|Attendence_system\\Attendence_system.csproj|solutionrelative:attendence_system\\migrations\\20240805162156_ss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "User_Master.cs",
+              "DocumentMoniker": "C:\\Users\\SHREE\\source\\repos\\Attendence_system\\Attendence_system\\Model\\Domain\\User_Master.cs",
+              "RelativeDocumentMoniker": "Attendence_system\\Model\\Domain\\User_Master.cs",
+              "ToolTip": "C:\\Users\\SHREE\\source\\repos\\Attendence_system\\Attendence_system\\Model\\Domain\\User_Master.cs",
+              "RelativeToolTip": "Attendence_system\\Model\\Domain\\User_Master.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T05:57:54.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserMasterDto.cs",
+              "DocumentMoniker": "C:\\Users\\SHREE\\source\\repos\\Attendence_system\\Attendence_system\\Model\\dto\\UserMasterDto.cs",
+              "RelativeDocumentMoniker": "Attendence_system\\Model\\dto\\UserMasterDto.cs",
+              "ToolTip": "C:\\Users\\SHREE\\source\\repos\\Attendence_system\\Attendence_system\\Model\\dto\\UserMasterDto.cs",
+              "RelativeToolTip": "Attendence_system\\Model\\dto\\UserMasterDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T06:39:24.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserMasterController.cs",
+              "DocumentMoniker": "C:\\Users\\SHREE\\source\\repos\\Attendence_system\\Attendence_system\\Controllers\\UserMasterController.cs",
+              "RelativeDocumentMoniker": "Attendence_system\\Controllers\\UserMasterController.cs",
+              "ToolTip": "C:\\Users\\SHREE\\source\\repos\\Attendence_system\\Attendence_system\\Controllers\\UserMasterController.cs",
+              "RelativeToolTip": "Attendence_system\\Controllers\\UserMasterController.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAApwFUAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T06:44:24.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddUserMasterDto.cs",
+              "DocumentMoniker": "C:\\Users\\SHREE\\source\\repos\\Attendence_system\\Attendence_system\\Model\\dto\\AddUserMasterDto.cs",
+              "RelativeDocumentMoniker": "Attendence_system\\Model\\dto\\AddUserMasterDto.cs",
+              "ToolTip": "C:\\Users\\SHREE\\source\\repos\\Attendence_system\\Attendence_system\\Model\\dto\\AddUserMasterDto.cs",
+              "RelativeToolTip": "Attendence_system\\Model\\dto\\AddUserMasterDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T06:43:23.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AttendenceSystem.cs",
+              "DocumentMoniker": "C:\\Users\\SHREE\\source\\repos\\Attendence_system\\Attendence_system\\Context\\AttendenceSystem.cs",
+              "RelativeDocumentMoniker": "Attendence_system\\Context\\AttendenceSystem.cs",
+              "ToolTip": "C:\\Users\\SHREE\\source\\repos\\Attendence_system\\Attendence_system\\Context\\AttendenceSystem.cs",
+              "RelativeToolTip": "Attendence_system\\Context\\AttendenceSystem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T09:27:05.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\SHREE\\source\\repos\\Attendence_system\\Attendence_system\\appsettings.json",
+              "RelativeDocumentMoniker": "Attendence_system\\appsettings.json",
+              "ToolTip": "C:\\Users\\SHREE\\source\\repos\\Attendence_system\\Attendence_system\\appsettings.json",
+              "RelativeToolTip": "Attendence_system\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-05T15:45:14.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\SHREE\\source\\repos\\Attendence_system\\Attendence_system\\Program.cs",
+              "RelativeDocumentMoniker": "Attendence_system\\Program.cs",
+              "ToolTip": "C:\\Users\\SHREE\\source\\repos\\Attendence_system\\Attendence_system\\Program.cs",
+              "RelativeToolTip": "Attendence_system\\Program.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwBEAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T15:02:15.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\SHREE\\source\\repos\\Attendence_system\\Attendence_system\\Repository\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Attendence_system\\Repository\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\SHREE\\source\\repos\\Attendence_system\\Attendence_system\\Repository\\IUserRepository.cs",
+              "RelativeToolTip": "Attendence_system\\Repository\\IUserRepository.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAswBEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T14:17:18.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SqlUserRepo.cs",
+              "DocumentMoniker": "C:\\Users\\SHREE\\source\\repos\\Attendence_system\\Attendence_system\\Repository\\SqlUserRepo.cs",
+              "RelativeDocumentMoniker": "Attendence_system\\Repository\\SqlUserRepo.cs",
+              "ToolTip": "C:\\Users\\SHREE\\source\\repos\\Attendence_system\\Attendence_system\\Repository\\SqlUserRepo.cs",
+              "RelativeToolTip": "Attendence_system\\Repository\\SqlUserRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T14:16:31.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CourseMasterDto.cs",
+              "DocumentMoniker": "C:\\Users\\SHREE\\source\\repos\\Attendence_system\\Attendence_system\\Model\\dto\\CourseMasterDto.cs",
+              "RelativeDocumentMoniker": "Attendence_system\\Model\\dto\\CourseMasterDto.cs",
+              "ToolTip": "C:\\Users\\SHREE\\source\\repos\\Attendence_system\\Attendence_system\\Model\\dto\\CourseMasterDto.cs",
+              "RelativeToolTip": "Attendence_system\\Model\\dto\\CourseMasterDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T15:37:32.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AddCourseMasterDto.cs",
+              "DocumentMoniker": "C:\\Users\\SHREE\\source\\repos\\Attendence_system\\Attendence_system\\Model\\dto\\AddCourseMasterDto.cs",
+              "RelativeDocumentMoniker": "Attendence_system\\Model\\dto\\AddCourseMasterDto.cs",
+              "ToolTip": "C:\\Users\\SHREE\\source\\repos\\Attendence_system\\Attendence_system\\Model\\dto\\AddCourseMasterDto.cs",
+              "RelativeToolTip": "Attendence_system\\Model\\dto\\AddCourseMasterDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T16:15:32.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AddBatchMasterDto.cs",
+              "DocumentMoniker": "C:\\Users\\SHREE\\source\\repos\\Attendence_system\\Attendence_system\\Model\\dto\\AddBatchMasterDto.cs",
+              "RelativeDocumentMoniker": "Attendence_system\\Model\\dto\\AddBatchMasterDto.cs",
+              "ToolTip": "C:\\Users\\SHREE\\source\\repos\\Attendence_system\\Attendence_system\\Model\\dto\\AddBatchMasterDto.cs",
+              "RelativeToolTip": "Attendence_system\\Model\\dto\\AddBatchMasterDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T15:44:21.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Course_Master.cs",
+              "DocumentMoniker": "C:\\Users\\SHREE\\source\\repos\\Attendence_system\\Attendence_system\\Model\\Domain\\Course_Master.cs",
+              "RelativeDocumentMoniker": "Attendence_system\\Model\\Domain\\Course_Master.cs",
+              "ToolTip": "C:\\Users\\SHREE\\source\\repos\\Attendence_system\\Attendence_system\\Model\\Domain\\Course_Master.cs",
+              "RelativeToolTip": "Attendence_system\\Model\\Domain\\Course_Master.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAawBAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T15:35:40.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "20240805162156_ss.cs",
+              "DocumentMoniker": "C:\\Users\\SHREE\\source\\repos\\Attendence_system\\Attendence_system\\Migrations\\20240805162156_ss.cs",
+              "RelativeDocumentMoniker": "Attendence_system\\Migrations\\20240805162156_ss.cs",
+              "ToolTip": "C:\\Users\\SHREE\\source\\repos\\Attendence_system\\Attendence_system\\Migrations\\20240805162156_ss.cs",
+              "RelativeToolTip": "Attendence_system\\Migrations\\20240805162156_ss.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T16:21:56.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Batch_Master.cs",
+              "DocumentMoniker": "C:\\Users\\SHREE\\source\\repos\\Attendence_system\\Attendence_system\\Model\\Domain\\Batch_Master.cs",
+              "RelativeDocumentMoniker": "Attendence_system\\Model\\Domain\\Batch_Master.cs",
+              "ToolTip": "C:\\Users\\SHREE\\source\\repos\\Attendence_system\\Attendence_system\\Model\\Domain\\Batch_Master.cs",
+              "RelativeToolTip": "Attendence_system\\Model\\Domain\\Batch_Master.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T15:33:36.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CourseMasterController.cs",
+              "DocumentMoniker": "C:\\Users\\SHREE\\source\\repos\\Attendence_system\\Attendence_system\\Controllers\\CourseMasterController.cs",
+              "RelativeDocumentMoniker": "Attendence_system\\Controllers\\CourseMasterController.cs",
+              "ToolTip": "C:\\Users\\SHREE\\source\\repos\\Attendence_system\\Attendence_system\\Controllers\\CourseMasterController.cs",
+              "RelativeToolTip": "Attendence_system\\Controllers\\CourseMasterController.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T15:40:29.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BatchMasterController.cs",
+              "DocumentMoniker": "C:\\Users\\SHREE\\source\\repos\\Attendence_system\\Attendence_system\\Controllers\\BatchMasterController.cs",
+              "RelativeDocumentMoniker": "Attendence_system\\Controllers\\BatchMasterController.cs",
+              "ToolTip": "C:\\Users\\SHREE\\source\\repos\\Attendence_system\\Attendence_system\\Controllers\\BatchMasterController.cs",
+              "RelativeToolTip": "Attendence_system\\Controllers\\BatchMasterController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T15:50:26.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20240805154901_nn.cs",
+              "DocumentMoniker": "C:\\Users\\SHREE\\source\\repos\\Attendence_system\\Attendence_system\\Migrations\\20240805154901_nn.cs",
+              "RelativeDocumentMoniker": "Attendence_system\\Migrations\\20240805154901_nn.cs",
+              "ToolTip": "C:\\Users\\SHREE\\source\\repos\\Attendence_system\\Attendence_system\\Migrations\\20240805154901_nn.cs",
+              "RelativeToolTip": "Attendence_system\\Migrations\\20240805154901_nn.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T15:49:01.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "StudentData.cs",
+              "DocumentMoniker": "C:\\Users\\SHREE\\source\\repos\\Attendence_system\\Attendence_system\\Model\\Domain\\StudentData.cs",
+              "RelativeDocumentMoniker": "Attendence_system\\Model\\Domain\\StudentData.cs",
+              "ToolTip": "C:\\Users\\SHREE\\source\\repos\\Attendence_system\\Attendence_system\\Model\\Domain\\StudentData.cs",
+              "RelativeToolTip": "Attendence_system\\Model\\Domain\\StudentData.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAkwBwAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T10:41:56.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AddStudentdataDto.cs",
+              "DocumentMoniker": "C:\\Users\\SHREE\\source\\repos\\Attendence_system\\Attendence_system\\Model\\dto\\AddStudentdataDto.cs",
+              "RelativeDocumentMoniker": "Attendence_system\\Model\\dto\\AddStudentdataDto.cs",
+              "ToolTip": "C:\\Users\\SHREE\\source\\repos\\Attendence_system\\Attendence_system\\Model\\dto\\AddStudentdataDto.cs",
+              "RelativeToolTip": "Attendence_system\\Model\\dto\\AddStudentdataDto.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAA7wB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T10:50:13.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "StudentdataDto.cs",
+              "DocumentMoniker": "C:\\Users\\SHREE\\source\\repos\\Attendence_system\\Attendence_system\\Model\\dto\\StudentdataDto.cs",
+              "RelativeDocumentMoniker": "Attendence_system\\Model\\dto\\StudentdataDto.cs",
+              "ToolTip": "C:\\Users\\SHREE\\source\\repos\\Attendence_system\\Attendence_system\\Model\\dto\\StudentdataDto.cs",
+              "RelativeToolTip": "Attendence_system\\Model\\dto\\StudentdataDto.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAkwBwAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T10:49:46.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "StudentDataController.cs",
+              "DocumentMoniker": "C:\\Users\\SHREE\\source\\repos\\Attendence_system\\Attendence_system\\Controllers\\StudentDataController.cs",
+              "RelativeDocumentMoniker": "Attendence_system\\Controllers\\StudentDataController.cs",
+              "ToolTip": "C:\\Users\\SHREE\\source\\repos\\Attendence_system\\Attendence_system\\Controllers\\StudentDataController.cs",
+              "RelativeToolTip": "Attendence_system\\Controllers\\StudentDataController.cs",
+              "ViewState": "AQIAAHwAAAAAAAAAAAAkwE8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T10:51:28.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20240729070124_ss.cs",
+              "DocumentMoniker": "C:\\Users\\SHREE\\source\\repos\\Attendence_system\\Attendence_system\\Migrations\\20240729070124_ss.cs",
+              "RelativeDocumentMoniker": "Attendence_system\\Migrations\\20240729070124_ss.cs",
+              "ToolTip": "C:\\Users\\SHREE\\source\\repos\\Attendence_system\\Attendence_system\\Migrations\\20240729070124_ss.cs",
+              "RelativeToolTip": "Attendence_system\\Migrations\\20240729070124_ss.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T07:01:24.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "JsonDateTimeConverter.cs",
+              "DocumentMoniker": "C:\\Users\\SHREE\\source\\repos\\Attendence_system\\Attendence_system\\JsonDateTimeConverter.cs",
+              "RelativeDocumentMoniker": "Attendence_system\\JsonDateTimeConverter.cs",
+              "ToolTip": "C:\\Users\\SHREE\\source\\repos\\Attendence_system\\Attendence_system\\JsonDateTimeConverter.cs",
+              "RelativeToolTip": "Attendence_system\\JsonDateTimeConverter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T14:43:01.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "20240722145253_nn.cs",
+              "DocumentMoniker": "C:\\Users\\SHREE\\source\\repos\\Attendence_system\\Attendence_system\\Migrations\\20240722145253_nn.cs",
+              "RelativeDocumentMoniker": "Attendence_system\\Migrations\\20240722145253_nn.cs",
+              "ToolTip": "C:\\Users\\SHREE\\source\\repos\\Attendence_system\\Attendence_system\\Migrations\\20240722145253_nn.cs",
+              "RelativeToolTip": "Attendence_system\\Migrations\\20240722145253_nn.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T14:52:53.666Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

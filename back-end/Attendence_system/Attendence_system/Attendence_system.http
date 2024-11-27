@@ -1,0 +1,6 @@
+@Attendence_system_HostAddress = http://localhost:5196
+
+GET {{Attendence_system_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
